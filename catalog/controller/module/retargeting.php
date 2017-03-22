@@ -782,7 +782,7 @@ class ControllerModuleRetargeting extends Controller {
                       $data['saveOrder'] .= "{
                                                   'id': {$order_product_query->rows[$i]['product_id']},
                                                   'quantity': {$order_product_query->rows[$i]['quantity']},
-                                                  'price': {$order_product_query->rows[$i]['price']},
+                                                  'price': {$product_price},
                                                   'variation_code': ''
                                                   }";
                       break;
@@ -790,7 +790,7 @@ class ControllerModuleRetargeting extends Controller {
                   $data['saveOrder'] .= "{
                                               'id': {$order_product_query->rows[$i]['product_id']},
                                               'quantity': {$order_product_query->rows[$i]['quantity']},
-                                              'price': {$order_product_query->rows[$i]['price']},
+                                              'price': {$product_price},
                                               'variation_code': ''
                                               },";
               }
