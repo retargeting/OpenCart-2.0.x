@@ -5,7 +5,7 @@
 
     MODULE: Retargeting
 -->
-<!-- START RETARGETING MODULE -->
+<!-- START RETARGETING EXTENSION -->
 <script type="text/javascript">
 
 (function(){
@@ -20,4 +20,4 @@
     <?php echo $js_output; ?>
 
 </script>
-<!-- END RETARGETING MODULE 50.x -->
+<!-- END RETARGETING EXTENSION v2.0.0 -->
